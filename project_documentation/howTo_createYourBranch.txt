@@ -14,7 +14,7 @@
 
 7. send command  git push
 
-8. copy, paste and send line that suggested by git
+8. copy, paste and send line that suggested by git( git push --set-upstream origin [your name])
 
 9. send command git branch
  
