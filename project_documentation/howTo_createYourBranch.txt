@@ -1,0 +1,23 @@
+1. import project from GitHub onto your IDE(Eclipse)
+
+2. Open command line
+
+3. Set directory to the project downloaded( cd [directory]) in command line
+
+4. send command  git branch
+
+  4a. you should be able to see branch(master)
+
+5. send command  git checkout workingbranch
+
+6. send command  git checkout -b [your name]
+
+7. send command  git push
+
+8. copy, paste and send line that suggested by git
+
+9. send command git branch
+ 
+10. you should be able to see tree branches(master, workingbranch, [your name]) [your name] hightlited in green
+
+11. for further steps see howTo_Git_GitHub file

@@ -1,0 +1,8 @@
+Coding Standarts:
+ 
+ 
+ 
+ 
+ --Please use Ctrl + Shift + F(for Windows) 
+              Command + Shift + F(for Mac) -
+   to make the code formated to a standard before merging to a "workingbranch"(makes your code easier to read)  
