@@ -17,6 +17,6 @@ import cucumber.api.junit.Cucumber;
 		//tags="@temp",
 		features="src/test/resources/com/cybertek_reservation_qa6/herokuapp/features", 
 		glue="com/cybertek_reservation_qa6/herokuapp/step_definitions"
-//		,dryRun = true
+		,dryRun = true
 		)
 public class CukesRunner {}
