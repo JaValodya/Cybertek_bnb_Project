@@ -1,4 +1,4 @@
-package com.cybertek_reservation_qa6.herokuapp.utilities;
+package utilities;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,22 +13,15 @@ import java.util.Map;
 
 public class DBUtils {
 
-	public static void main(String[] args) {
-		createConnection();
-		String query= "select * from users where team_id=38;";
-		System.out.println(getColumnData(query, "firstname"));
-		
-		destroy();
-	}
 
 	private static Connection connection;
 	private static Statement statement;
 	private static ResultSet resultSet;
 
 	public static void createConnection() {
-		String url = ConfigurationReader.getProperty("qa1_db_host");
-		String user = ConfigurationReader.getProperty("qa1_db_username");
-		String password = ConfigurationReader.getProperty("qa1_db_password");
+		String url = ConfigurationReader.getProperty("qa6_db_host");
+		String user = ConfigurationReader.getProperty("qa6_db_username");
+		String password = ConfigurationReader.getProperty("qa6_db_password");
 
 		try {
 			connection = DriverManager.getConnection(url, user, password);

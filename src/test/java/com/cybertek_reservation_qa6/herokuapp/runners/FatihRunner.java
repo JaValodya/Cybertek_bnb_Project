@@ -14,10 +14,9 @@ import cucumber.api.junit.Cucumber;
 		
 		},
 		
-//		tags="@fatih",
-//		tags="@kamil"
+		tags="@db",
 		features="src/test/resources/com/cybertek_reservation_qa6/herokuapp/features", 
 		glue="com/cybertek_reservation_qa6/herokuapp/step_definitions"
-//		,dryRun = true
+		,dryRun = false
 		)
-public class CukesRunner {}
+public class FatihRunner {}
