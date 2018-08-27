@@ -5,13 +5,20 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import pages.Meru_Page;
+
 public class Fatih4_Step_Definitions {
+//	Connection connection = DriverManager.getConnection(qa1_db_host, oracleDbUsername, oracleDbPassword);
+//	Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+//	ResultSet resultSet = statement.executeQuery("select * from jobs");
 	
 	@Given("As a qa_user I logged into cybertekbnb database")
 	public void as_a_qa_user_I_logged_into_cybertekbnb_database() {
-		Connection connection = DriverManager.getConnection(oracleDbUrl, oracleDbUsername, oracleDbPassword);
-		Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-		ResultSet resultSet = statement.executeQuery("select * from jobs");
+		Meru_Page meru = new Meru_Page();
 		
 	    throw new PendingException();
 	}
