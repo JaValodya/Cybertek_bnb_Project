@@ -1,4 +1,4 @@
-package com.cybertek_reservation_qa6.herokuapp.utilities;
+package utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
