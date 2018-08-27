@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.cybertek_reservation_qa6.herokuapp.utilities.Driver;
+import utilities.Driver;
 
 public class SignInPage {
 

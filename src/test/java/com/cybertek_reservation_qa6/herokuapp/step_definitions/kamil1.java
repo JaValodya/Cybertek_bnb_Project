@@ -3,7 +3,7 @@ package com.cybertek_reservation_qa6.herokuapp.step_definitions;
 import org.openqa.selenium.interactions.Actions;
 
 import com.cybertek_reservation_qa6.herokuapp.pages.HomePage;
-import com.cybertek_reservation_qa6.herokuapp.utilities.Driver;
+import utilities.Driver;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
