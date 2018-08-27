@@ -19,16 +19,10 @@ public class DBUtils {
 	private static ResultSet resultSet;
 
 	public static void createConnection() {
-<<<<<<< HEAD:src/test/java/com/cybertek_reservation_qa6/herokuapp/utilities/DBUtils.java
 
 		String url = ConfigurationReader.getProperty("qa1_db_host");
 		String user = ConfigurationReader.getProperty("qa1_db_username");
 		String password = ConfigurationReader.getProperty("qa1_db_password");
-=======
-		String url = ConfigurationReader.getProperty("qa6_db_host");
-		String user = ConfigurationReader.getProperty("qa6_db_username");
-		String password = ConfigurationReader.getProperty("qa6_db_password");
->>>>>>> fb5a367e26ab4584cc6ac001397e37e5afb43ab9:src/test/java/utilities/DBUtils.java
 
 
 		try {

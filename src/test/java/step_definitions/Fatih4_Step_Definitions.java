@@ -14,9 +14,6 @@ public class Fatih4_Step_Definitions {
 	
 	@Given("As a qa_user I logged into cybertekbnb database")
 	public void as_a_qa_user_I_logged_into_cybertekbnb_database() {
-		Connection connection = DriverManager.getConnection(oracleDbUrl, oracleDbUsername, oracleDbPassword);
-		Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-		ResultSet resultSet = statement.executeQuery("select * from jobs");
 		
 	    throw new PendingException();
 	}
