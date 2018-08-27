@@ -1,4 +1,4 @@
-package com.cybertek_reservation_qa6.herokuapp.utilities;
+package utilities;
 
 import java.util.List;
 import java.util.Map;

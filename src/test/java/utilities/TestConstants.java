@@ -1,4 +1,4 @@
-package com.cybertek_reservation_qa6.herokuapp.utilities;
+package utilities;
 
 public class TestConstants {
 	public static final String TEST_DATA_FOLDER = "src/test/resources/com/prestashop/test-data/";
